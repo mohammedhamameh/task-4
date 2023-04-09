@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+body{
+    background-image: url("./background.jpg");
+}
+nav{
+    display: flex;
+        justify-content: space-between;
+    height: 48px;
+ max-width: 100vw;
+    align-items: center;
+    background-color:white;
+    padding: 20px;
+}
+
+nav .nav-item-2,.nav-item-1{
+
+display: flex;
+gap: 32px;
+
+color: rgb(134, 130, 130);
+font-size: 16px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(133, 128, 128);
+}
+nav .nav-item-1 img{
+    margin-left: -20px;
+} 
+.nav-list ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ margin-left: 338px;
+ margin-top: 0;
+    gap: 64px;
+width: 578px;
+height: 44px;
+border-radius: 8px;
+line-height: 19.5px;
+  background-color: #282828;
+}
+.nav-list li { 
+list-style-type: none;
+}
+.nav-list  li a {
+text-decoration: none;
+color: #FF8500;
+}
+.sec-2{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  
+    
+    
+    }
+    .sec-2-text{
+   height: 48px;
+   width: 735px;
+
+    margin: auto;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 24px;
+ 
+    }
+ 
+    .sec-2-btn{
+        height: 32px;
+        width: 180px;
+    margin: auto;
+        background-color:#282828;
+        color: white;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    
+    }
+    .sec-3 input{
+        border: none;
+        border-bottom: 1px  black solid ;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        background-color: transparent;
+       
+        padding: 5px;
+   margin-top: 80px;
+color: #938C8C;
+    background-image: url(".//image-1/Vector\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    
+    }
+    .sec-4{
+        display: flex;
+  justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .sec-4-card{
+        width: 305px;
+        height: 272px;
+    
+   background-color: white;
+    
+        position: relative;
+  
+      box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
+border-radius: 10px;
+    }
+    .sec-4-card img{
+        position: absolute;
+        top: 18px;
+        left: 32px;
+    }
+    .sec-4-card .name{
+        position: absolute;
+        top: 26px;
+        left: 80px;
+        font-size: 14px;
+    }
+    .sec-4-card h1{
+        position: absolute;
+        left: 32px;
+        top: 72px;
+        font-size: 18px;
+
+ 
+     
+    }
+    .sec-4-card-text{
+   font-size: 14px;
+
+
+position: absolute;
+top: 120px;
+left: 32px;
+
+display: flex;
+flex-direction: row;
+
+
+    }
+    .sec-4-card-text .r{
+        transform: translate(-55px, 50px);
+   margin-left:-18px;
+    }
+    .sec-4-card button{
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 230px;
+        margin: auto;
+        position: absolute;
+        top: 220px;
+        left: 12%;
+        border-radius: 8px;
+    }
+    .sec-4-item {
+        display: flex;
+        gap: 20px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        
+        }
+        .sec-4-item a{
+        text-decoration: none;
+        font-size: 18px;
+            color: black;
+        }
+        footer{
+      max-width: 100%;
+            height: 213px;
+            background-color: #282828;
+            color: white;
+            margin-top: 32px;
+            position: relative;
+        }
+        footer .all-item{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+        }
+        .footer-item{
+            display: flex;
+flex-direction: column;
+
+        }
+        .footer-item p{
+            margin-top: 10px;
+        }
+        .footer-item h1{
+            margin-top: 32px;
+        }
+        .footer-end{
+            margin-top: 32px;
+            margin-left: 65px;
+        } 
+        hr{
+          width: 800px;
+        position: absolute;
+        left: 400px;
+bottom: 45px;
+      
+        }
+
